@@ -1,0 +1,6 @@
+; demo source showing object pointer syntax
+objInt iVal = 42
+objRef pVal = &iVal
+; deref
+fnPrint(pVal^)
+mov rax, 1
